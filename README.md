@@ -1,5 +1,6 @@
 # 2024_ipp_cpp
   - 일학습병행(IPP) 학습근로자를 위한 2024 멘토링 프로그램 코드 자료
+  - C/C++/Linux
 
 ### Environment setting
 1. WSL (Windows Subsystem for Linux)
@@ -28,7 +29,6 @@
     - first.c
     - compile and build
         ```
-        $ cd mycode
         $ gcc first.c
         $ ./a.out
         ```
@@ -37,7 +37,15 @@
         $ gcc -o first first.c
         $ ./first
         ```
-
+5. C++ (installed gcc)
+    - gcc
+        ```
+        $ gcc -o firstcpp first.cpp -lstdc++
+        ```
+    - g++
+        ```
+        $ g++ -o firstcpp first.cpp
+        ```
 
 
 ### Reference
